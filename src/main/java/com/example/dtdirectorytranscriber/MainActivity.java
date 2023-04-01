@@ -1,6 +1,9 @@
 package com.example.dtdirectorytranscriber;
 
+import android.Manifest;
 import android.app.Activity;
+import android.content.pm.PackageManager;
+import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -21,6 +24,16 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        // Check if the app has permission to access the external storage
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+            if (checkSelfPermission(Manifest.permission.WRITE_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED) {
+
+                // If not, request the permission from the user
+                requestPermissions(new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE}, 0);
+            }
+        }
+
 
         directoryEditText = findViewById(R.id.editTextDirectory);
         grabButton = findViewById(R.id.buttonGrab);
@@ -67,4 +80,22 @@ public class MainActivity extends Activity {
             }
         });
     }
+
+    @Override
+    public void onRequestPermissionsResult(int requestCode, String permissions[], int[] grantResults) {
+        switch (requestCode) {
+            case 0: {
+                // If the user grants the permission, proceed with the app's normal operation
+                if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+                    Toast.makeText(MainActivity.this, "Permission granted", Toast.LENGTH_SHORT).show();
+                }
+                // If the user denies the permission, display a message and do not proceed with the app's operation
+                else {
+                    Toast.makeText(MainActivity.this, "Permission denied", Toast.LENGTH_SHORT).show();
+                }
+                return;
+            }
+        }
+    }
+
 }
