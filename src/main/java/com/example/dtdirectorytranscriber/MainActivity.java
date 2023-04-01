@@ -1,73 +1,70 @@
 package com.example.dtdirectorytranscriber;
 
+import android.app.Activity;
 import android.os.Bundle;
-import android.support.design.widget.Snackbar;
-import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.Toast;
+import com.example.dtdirectorytranscriber.R;
 
-import androidx.navigation.NavController;
-import androidx.navigation.Navigation;
-import androidx.navigation.ui.AppBarConfiguration;
-import androidx.navigation.ui.NavigationUI;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
 
-import com.example.dtdirectorytranscriber.databinding.ActivityMainBinding;
+public class MainActivity extends Activity {
 
-import android.view.Menu;
-import android.view.MenuItem;
-
-public class MainActivity extends AppCompatActivity {
-
-    private AppBarConfiguration appBarConfiguration;
-    private ActivityMainBinding binding;
+    private EditText directoryEditText;
+    private Button grabButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
 
-        binding = ActivityMainBinding.inflate(getLayoutInflater());
-        setContentView(binding.getRoot());
+        directoryEditText = findViewById(R.id.editTextDirectory);
+        grabButton = findViewById(R.id.buttonGrab);
 
-        setSupportActionBar(binding.toolbar);
-
-        NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_main);
-        appBarConfiguration = new AppBarConfiguration.Builder(navController.getGraph()).build();
-        NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
-
-        binding.fab.setOnClickListener(new View.OnClickListener() {
+        grabButton.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+            public void onClick(View v) {
+                String directoryPath = directoryEditText.getText().toString();
+
+                if (directoryPath.isEmpty()) {
+                    Toast.makeText(MainActivity.this, "Please enter a directory path", Toast.LENGTH_SHORT).show();
+                    return;
+                }
+
+                File directory = new File(directoryPath);
+
+                if (!directory.isDirectory()) {
+                    Toast.makeText(MainActivity.this, "Please enter a valid directory path", Toast.LENGTH_SHORT).show();
+                    return;
+                }
+
+                File[] files = directory.listFiles();
+
+                if (files == null) {
+                    Toast.makeText(MainActivity.this, "Error reading files in directory", Toast.LENGTH_SHORT).show();
+                    return;
+                }
+
+                try {
+                    File outputFile = new File(getExternalFilesDir(null), "file_list.csv");
+                    FileWriter writer = new FileWriter(outputFile);
+
+                    for (File file : files) {
+                        writer.write(file.getName() + "\n");
+                    }
+
+                    writer.close();
+
+                    Toast.makeText(MainActivity.this, "File names saved to " + outputFile.getAbsolutePath(), Toast.LENGTH_LONG).show();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                    Toast.makeText(MainActivity.this, "Error writing file names to output file", Toast.LENGTH_SHORT).show();
+                }
             }
         });
-    }
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_main, menu);
-        return true;
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
-
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
-        }
-
-        return super.onOptionsItemSelected(item);
-    }
-
-    @Override
-    public boolean onSupportNavigateUp() {
-        NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_main);
-        return NavigationUI.navigateUp(navController, appBarConfiguration)
-                || super.onSupportNavigateUp();
     }
 }
