@@ -9,7 +9,6 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
-import com.example.dtdirectorytranscriber.R;
 
 import java.io.File;
 import java.io.FileWriter;
@@ -20,20 +19,12 @@ public class MainActivity extends Activity {
     private EditText directoryEditText;
     private Button grabButton;
 
+    private static final int REQUEST_PERMISSIONS = 1;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        // Check if the app has permission to access the external storage
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
-            if (checkSelfPermission(Manifest.permission.WRITE_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED) {
-
-                // If not, request the permission from the user
-                requestPermissions(new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE}, 0);
-            }
-        }
-
 
         directoryEditText = findViewById(R.id.editTextDirectory);
         grabButton = findViewById(R.id.buttonGrab);
@@ -67,7 +58,8 @@ public class MainActivity extends Activity {
                     FileWriter writer = new FileWriter(outputFile);
 
                     for (File file : files) {
-                        writer.write(file.getName() + "\n");
+                        String fileNameWithoutExt = file.getName().substring(0, file.getName().lastIndexOf('.'));
+                        writer.write(fileNameWithoutExt + "\n");
                     }
 
                     writer.close();
@@ -79,23 +71,26 @@ public class MainActivity extends Activity {
                 }
             }
         });
-    }
 
-    @Override
-    public void onRequestPermissionsResult(int requestCode, String permissions[], int[] grantResults) {
-        switch (requestCode) {
-            case 0: {
-                // If the user grants the permission, proceed with the app's normal operation
-                if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
-                    Toast.makeText(MainActivity.this, "Permission granted", Toast.LENGTH_SHORT).show();
-                }
-                // If the user denies the permission, display a message and do not proceed with the app's operation
-                else {
-                    Toast.makeText(MainActivity.this, "Permission denied", Toast.LENGTH_SHORT).show();
-                }
-                return;
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+            if (checkSelfPermission(Manifest.permission.WRITE_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED) {
+                requestPermissions(new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE}, REQUEST_PERMISSIONS);
             }
         }
     }
 
+    @Override
+    public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+
+        switch (requestCode) {
+            case REQUEST_PERMISSIONS:
+                if (grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+                    Toast.makeText(MainActivity.this, "Storage permissions granted", Toast.LENGTH_SHORT).show();
+                } else {
+                    Toast.makeText(MainActivity.this, "Storage permissions denied", Toast.LENGTH_SHORT).show();
+                }
+                break;
+        }
+    }
 }
