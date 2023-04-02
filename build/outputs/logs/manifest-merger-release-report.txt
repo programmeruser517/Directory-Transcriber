@@ -1,0 +1,203 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Peter Pena\AndroidStudioProjects\DirectoryTranscriberDT\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from C:\Users\Peter Pena\AndroidStudioProjects\DirectoryTranscriberDT\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from C:\Users\Peter Pena\AndroidStudioProjects\DirectoryTranscriberDT\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from C:\Users\Peter Pena\AndroidStudioProjects\DirectoryTranscriberDT\app\src\main\AndroidManifest.xml:2:1-30:12
+MERGED from [com.android.databinding:viewbinding:7.4.2] C:\Users\Peter Pena\.gradle\caches\transforms-3\bc06533322182f71e0782f31a0fe9ee8\transformed\viewbinding-7.4.2\AndroidManifest.xml:2:1-7:12
+MERGED from [android.arch.navigation:navigation-ui:1.0.0] C:\Users\Peter Pena\.gradle\caches\transforms-3\c754b2cc2b7b728cba3988e7b7bc775a\transformed\navigation-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:design:28.0.0] C:\Users\Peter Pena\.gradle\caches\transforms-3\7e1907f63ff91663c6c87fcc65fa47d5\transformed\design-28.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support.constraint:constraint-layout:2.0.4] C:\Users\Peter Pena\.gradle\caches\transforms-3\314c9faa7cd2f445aed8999caa4aba56\transformed\constraint-layout-2.0.4\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Peter Pena\.gradle\caches\transforms-3\ea5271aff2e9b4fa4c0a0cdbc7dd64f1\transformed\appcompat-v7-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.navigation:navigation-fragment:1.0.0] C:\Users\Peter Pena\.gradle\caches\transforms-3\ac16e5b11589b8462682443d8f9eaff6\transformed\navigation-fragment-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Peter Pena\.gradle\caches\transforms-3\40e37da139b1bd9b7bb8fa764c559d9c\transformed\support-fragment-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Peter Pena\.gradle\caches\transforms-3\e216d5fc9d484c02d41662c8e0d7e480\transformed\animated-vector-drawable-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Peter Pena\.gradle\caches\transforms-3\d3210e8e64ad7321d64cd7ae187baa0c\transformed\recyclerview-v7-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Peter Pena\.gradle\caches\transforms-3\fa82f3329e59aafeaa3050f33beac85e\transformed\support-core-ui-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.navigation:navigation-runtime:1.0.0] C:\Users\Peter Pena\.gradle\caches\transforms-3\ac5a64a5b4afc39b0cbcaa7ebea6f24a\transformed\navigation-runtime-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Peter Pena\.gradle\caches\transforms-3\4e0198e82df7df76f4b187e00d280369\transformed\support-core-utils-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Peter Pena\.gradle\caches\transforms-3\0b989c8f12e7c957abc7a1884076574a\transformed\support-vector-drawable-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] C:\Users\Peter Pena\.gradle\caches\transforms-3\dd148e729fdb4e754e49b20c9ecc7056\transformed\transition-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Peter Pena\.gradle\caches\transforms-3\d16fbd92de45efb526b3b585a0a005fc\transformed\loader-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Peter Pena\.gradle\caches\transforms-3\1e4b8f041d5297383d42909d15c5b2a3\transformed\viewpager-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Peter Pena\.gradle\caches\transforms-3\568c762957e87adb25eac94f3bddea2d\transformed\coordinatorlayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Peter Pena\.gradle\caches\transforms-3\a475c4691c9d028902b5a7488887115d\transformed\drawerlayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Peter Pena\.gradle\caches\transforms-3\9d6a31faaaea9177a87179bc9310c6ea\transformed\slidingpanelayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Peter Pena\.gradle\caches\transforms-3\5841284d7507ad629e40e1c8df6e4056\transformed\customview-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Peter Pena\.gradle\caches\transforms-3\1127f69e69b22545ca312359b65618e7\transformed\swiperefreshlayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Peter Pena\.gradle\caches\transforms-3\398703382a1e8b659cf490e6c447382b\transformed\asynclayoutinflater-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.navigation:navigation-common:1.0.0] C:\Users\Peter Pena\.gradle\caches\transforms-3\37f28380f2a0a2926646cd1f8b5e52d6\transformed\navigation-common-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Peter Pena\.gradle\caches\transforms-3\0b22a6b07b3e498281e2fdb9d93c9c6b\transformed\support-compat-28.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Peter Pena\.gradle\caches\transforms-3\481601e68be228fa2a45e74a81c7e04e\transformed\versionedparcelable-28.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Peter Pena\.gradle\caches\transforms-3\c707fe02fa1106d9f0139fe5215803d7\transformed\cursoradapter-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Peter Pena\.gradle\caches\transforms-3\703109fae2f389c31de7af6aa00ae2fb\transformed\cardview-v7-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Peter Pena\.gradle\caches\transforms-3\f123473990d486b3f20e8fe949c7b281\transformed\runtime-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Peter Pena\.gradle\caches\transforms-3\67ddafa61b8f47933cb658e483beb385\transformed\documentfile-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Peter Pena\.gradle\caches\transforms-3\70db801f677f7f92eb41cc9d8c101114\transformed\localbroadcastmanager-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\Peter Pena\.gradle\caches\transforms-3\d2faecab65285283c7b675bf5558ce45\transformed\print-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Peter Pena\.gradle\caches\transforms-3\d2b956bf5399713c4d2044c4c083205a\transformed\viewmodel-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Peter Pena\.gradle\caches\transforms-3\d68956c51c5efef0e8a1717341546fdc\transformed\interpolator-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Peter Pena\.gradle\caches\transforms-3\a53d9506ae4dacb055d43639ef5bb2b9\transformed\livedata-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Peter Pena\.gradle\caches\transforms-3\8685e06f4e5777f3b1c280be6231fd18\transformed\livedata-core-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Peter Pena\.gradle\caches\transforms-3\d7f073c16ca3baa38c501851e8255cb7\transformed\runtime-1.1.1\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\Peter Pena\AndroidStudioProjects\DirectoryTranscriberDT\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from C:\Users\Peter Pena\AndroidStudioProjects\DirectoryTranscriberDT\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from C:\Users\Peter Pena\AndroidStudioProjects\DirectoryTranscriberDT\app\src\main\AndroidManifest.xml:2:1-30:12
+	package
+		INJECTED from C:\Users\Peter Pena\AndroidStudioProjects\DirectoryTranscriberDT\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Peter Pena\AndroidStudioProjects\DirectoryTranscriberDT\app\src\main\AndroidManifest.xml:2:1-30:12
+		INJECTED from C:\Users\Peter Pena\AndroidStudioProjects\DirectoryTranscriberDT\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Peter Pena\AndroidStudioProjects\DirectoryTranscriberDT\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Peter Pena\AndroidStudioProjects\DirectoryTranscriberDT\app\src\main\AndroidManifest.xml:2:1-30:12
+		INJECTED from C:\Users\Peter Pena\AndroidStudioProjects\DirectoryTranscriberDT\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\Peter Pena\AndroidStudioProjects\DirectoryTranscriberDT\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from C:\Users\Peter Pena\AndroidStudioProjects\DirectoryTranscriberDT\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Peter Pena\AndroidStudioProjects\DirectoryTranscriberDT\app\src\main\AndroidManifest.xml:2:1-30:12
+		INJECTED from C:\Users\Peter Pena\AndroidStudioProjects\DirectoryTranscriberDT\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Peter Pena\AndroidStudioProjects\DirectoryTranscriberDT\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\Peter Pena\AndroidStudioProjects\DirectoryTranscriberDT\app\src\main\AndroidManifest.xml:5:5-80
+	android:name
+		ADDED from C:\Users\Peter Pena\AndroidStudioProjects\DirectoryTranscriberDT\app\src\main\AndroidManifest.xml:5:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\Peter Pena\AndroidStudioProjects\DirectoryTranscriberDT\app\src\main\AndroidManifest.xml:6:5-81
+	android:name
+		ADDED from C:\Users\Peter Pena\AndroidStudioProjects\DirectoryTranscriberDT\app\src\main\AndroidManifest.xml:6:22-78
+application
+ADDED from C:\Users\Peter Pena\AndroidStudioProjects\DirectoryTranscriberDT\app\src\main\AndroidManifest.xml:8:5-28:19
+MERGED from [com.android.support:design:28.0.0] C:\Users\Peter Pena\.gradle\caches\transforms-3\7e1907f63ff91663c6c87fcc65fa47d5\transformed\design-28.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] C:\Users\Peter Pena\.gradle\caches\transforms-3\7e1907f63ff91663c6c87fcc65fa47d5\transformed\design-28.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support.constraint:constraint-layout:2.0.4] C:\Users\Peter Pena\.gradle\caches\transforms-3\314c9faa7cd2f445aed8999caa4aba56\transformed\constraint-layout-2.0.4\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:2.0.4] C:\Users\Peter Pena\.gradle\caches\transforms-3\314c9faa7cd2f445aed8999caa4aba56\transformed\constraint-layout-2.0.4\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Peter Pena\.gradle\caches\transforms-3\0b22a6b07b3e498281e2fdb9d93c9c6b\transformed\support-compat-28.0.0\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Peter Pena\.gradle\caches\transforms-3\0b22a6b07b3e498281e2fdb9d93c9c6b\transformed\support-compat-28.0.0\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Peter Pena\.gradle\caches\transforms-3\481601e68be228fa2a45e74a81c7e04e\transformed\versionedparcelable-28.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Peter Pena\.gradle\caches\transforms-3\481601e68be228fa2a45e74a81c7e04e\transformed\versionedparcelable-28.0.0\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\Peter Pena\.gradle\caches\transforms-3\0b22a6b07b3e498281e2fdb9d93c9c6b\transformed\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from C:\Users\Peter Pena\AndroidStudioProjects\DirectoryTranscriberDT\app\src\main\AndroidManifest.xml:14:9-35
+	android:label
+		ADDED from C:\Users\Peter Pena\AndroidStudioProjects\DirectoryTranscriberDT\app\src\main\AndroidManifest.xml:13:9-41
+	android:fullBackupContent
+		ADDED from C:\Users\Peter Pena\AndroidStudioProjects\DirectoryTranscriberDT\app\src\main\AndroidManifest.xml:11:9-54
+	tools:targetApi
+		ADDED from C:\Users\Peter Pena\AndroidStudioProjects\DirectoryTranscriberDT\app\src\main\AndroidManifest.xml:16:9-29
+	android:icon
+		ADDED from C:\Users\Peter Pena\AndroidStudioProjects\DirectoryTranscriberDT\app\src\main\AndroidManifest.xml:12:9-43
+	android:allowBackup
+		ADDED from C:\Users\Peter Pena\AndroidStudioProjects\DirectoryTranscriberDT\app\src\main\AndroidManifest.xml:9:9-35
+	android:theme
+		ADDED from C:\Users\Peter Pena\AndroidStudioProjects\DirectoryTranscriberDT\app\src\main\AndroidManifest.xml:15:9-60
+	android:dataExtractionRules
+		ADDED from C:\Users\Peter Pena\AndroidStudioProjects\DirectoryTranscriberDT\app\src\main\AndroidManifest.xml:10:9-65
+activity#com.example.directorytranscriberdt.MainActivity
+ADDED from C:\Users\Peter Pena\AndroidStudioProjects\DirectoryTranscriberDT\app\src\main\AndroidManifest.xml:17:9-27:20
+	android:label
+		ADDED from C:\Users\Peter Pena\AndroidStudioProjects\DirectoryTranscriberDT\app\src\main\AndroidManifest.xml:20:13-45
+	android:exported
+		ADDED from C:\Users\Peter Pena\AndroidStudioProjects\DirectoryTranscriberDT\app\src\main\AndroidManifest.xml:19:13-36
+	android:theme
+		ADDED from C:\Users\Peter Pena\AndroidStudioProjects\DirectoryTranscriberDT\app\src\main\AndroidManifest.xml:21:13-76
+	android:name
+		ADDED from C:\Users\Peter Pena\AndroidStudioProjects\DirectoryTranscriberDT\app\src\main\AndroidManifest.xml:18:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Peter Pena\AndroidStudioProjects\DirectoryTranscriberDT\app\src\main\AndroidManifest.xml:22:13-26:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Peter Pena\AndroidStudioProjects\DirectoryTranscriberDT\app\src\main\AndroidManifest.xml:23:17-69
+	android:name
+		ADDED from C:\Users\Peter Pena\AndroidStudioProjects\DirectoryTranscriberDT\app\src\main\AndroidManifest.xml:23:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Peter Pena\AndroidStudioProjects\DirectoryTranscriberDT\app\src\main\AndroidManifest.xml:25:17-77
+	android:name
+		ADDED from C:\Users\Peter Pena\AndroidStudioProjects\DirectoryTranscriberDT\app\src\main\AndroidManifest.xml:25:27-74
+uses-sdk
+INJECTED from C:\Users\Peter Pena\AndroidStudioProjects\DirectoryTranscriberDT\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Peter Pena\AndroidStudioProjects\DirectoryTranscriberDT\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Peter Pena\AndroidStudioProjects\DirectoryTranscriberDT\app\src\main\AndroidManifest.xml
+MERGED from [com.android.databinding:viewbinding:7.4.2] C:\Users\Peter Pena\.gradle\caches\transforms-3\bc06533322182f71e0782f31a0fe9ee8\transformed\viewbinding-7.4.2\AndroidManifest.xml:5:5-44
+MERGED from [com.android.databinding:viewbinding:7.4.2] C:\Users\Peter Pena\.gradle\caches\transforms-3\bc06533322182f71e0782f31a0fe9ee8\transformed\viewbinding-7.4.2\AndroidManifest.xml:5:5-44
+MERGED from [android.arch.navigation:navigation-ui:1.0.0] C:\Users\Peter Pena\.gradle\caches\transforms-3\c754b2cc2b7b728cba3988e7b7bc775a\transformed\navigation-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.navigation:navigation-ui:1.0.0] C:\Users\Peter Pena\.gradle\caches\transforms-3\c754b2cc2b7b728cba3988e7b7bc775a\transformed\navigation-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] C:\Users\Peter Pena\.gradle\caches\transforms-3\7e1907f63ff91663c6c87fcc65fa47d5\transformed\design-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] C:\Users\Peter Pena\.gradle\caches\transforms-3\7e1907f63ff91663c6c87fcc65fa47d5\transformed\design-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:2.0.4] C:\Users\Peter Pena\.gradle\caches\transforms-3\314c9faa7cd2f445aed8999caa4aba56\transformed\constraint-layout-2.0.4\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:2.0.4] C:\Users\Peter Pena\.gradle\caches\transforms-3\314c9faa7cd2f445aed8999caa4aba56\transformed\constraint-layout-2.0.4\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Peter Pena\.gradle\caches\transforms-3\ea5271aff2e9b4fa4c0a0cdbc7dd64f1\transformed\appcompat-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Peter Pena\.gradle\caches\transforms-3\ea5271aff2e9b4fa4c0a0cdbc7dd64f1\transformed\appcompat-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.navigation:navigation-fragment:1.0.0] C:\Users\Peter Pena\.gradle\caches\transforms-3\ac16e5b11589b8462682443d8f9eaff6\transformed\navigation-fragment-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.navigation:navigation-fragment:1.0.0] C:\Users\Peter Pena\.gradle\caches\transforms-3\ac16e5b11589b8462682443d8f9eaff6\transformed\navigation-fragment-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Peter Pena\.gradle\caches\transforms-3\40e37da139b1bd9b7bb8fa764c559d9c\transformed\support-fragment-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Peter Pena\.gradle\caches\transforms-3\40e37da139b1bd9b7bb8fa764c559d9c\transformed\support-fragment-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Peter Pena\.gradle\caches\transforms-3\e216d5fc9d484c02d41662c8e0d7e480\transformed\animated-vector-drawable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Peter Pena\.gradle\caches\transforms-3\e216d5fc9d484c02d41662c8e0d7e480\transformed\animated-vector-drawable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Peter Pena\.gradle\caches\transforms-3\d3210e8e64ad7321d64cd7ae187baa0c\transformed\recyclerview-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Peter Pena\.gradle\caches\transforms-3\d3210e8e64ad7321d64cd7ae187baa0c\transformed\recyclerview-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Peter Pena\.gradle\caches\transforms-3\fa82f3329e59aafeaa3050f33beac85e\transformed\support-core-ui-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Peter Pena\.gradle\caches\transforms-3\fa82f3329e59aafeaa3050f33beac85e\transformed\support-core-ui-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.navigation:navigation-runtime:1.0.0] C:\Users\Peter Pena\.gradle\caches\transforms-3\ac5a64a5b4afc39b0cbcaa7ebea6f24a\transformed\navigation-runtime-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.navigation:navigation-runtime:1.0.0] C:\Users\Peter Pena\.gradle\caches\transforms-3\ac5a64a5b4afc39b0cbcaa7ebea6f24a\transformed\navigation-runtime-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Peter Pena\.gradle\caches\transforms-3\4e0198e82df7df76f4b187e00d280369\transformed\support-core-utils-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Peter Pena\.gradle\caches\transforms-3\4e0198e82df7df76f4b187e00d280369\transformed\support-core-utils-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Peter Pena\.gradle\caches\transforms-3\0b989c8f12e7c957abc7a1884076574a\transformed\support-vector-drawable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Peter Pena\.gradle\caches\transforms-3\0b989c8f12e7c957abc7a1884076574a\transformed\support-vector-drawable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\Peter Pena\.gradle\caches\transforms-3\dd148e729fdb4e754e49b20c9ecc7056\transformed\transition-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\Peter Pena\.gradle\caches\transforms-3\dd148e729fdb4e754e49b20c9ecc7056\transformed\transition-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Peter Pena\.gradle\caches\transforms-3\d16fbd92de45efb526b3b585a0a005fc\transformed\loader-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Peter Pena\.gradle\caches\transforms-3\d16fbd92de45efb526b3b585a0a005fc\transformed\loader-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Peter Pena\.gradle\caches\transforms-3\1e4b8f041d5297383d42909d15c5b2a3\transformed\viewpager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Peter Pena\.gradle\caches\transforms-3\1e4b8f041d5297383d42909d15c5b2a3\transformed\viewpager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Peter Pena\.gradle\caches\transforms-3\568c762957e87adb25eac94f3bddea2d\transformed\coordinatorlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Peter Pena\.gradle\caches\transforms-3\568c762957e87adb25eac94f3bddea2d\transformed\coordinatorlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Peter Pena\.gradle\caches\transforms-3\a475c4691c9d028902b5a7488887115d\transformed\drawerlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Peter Pena\.gradle\caches\transforms-3\a475c4691c9d028902b5a7488887115d\transformed\drawerlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Peter Pena\.gradle\caches\transforms-3\9d6a31faaaea9177a87179bc9310c6ea\transformed\slidingpanelayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Peter Pena\.gradle\caches\transforms-3\9d6a31faaaea9177a87179bc9310c6ea\transformed\slidingpanelayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Peter Pena\.gradle\caches\transforms-3\5841284d7507ad629e40e1c8df6e4056\transformed\customview-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Peter Pena\.gradle\caches\transforms-3\5841284d7507ad629e40e1c8df6e4056\transformed\customview-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Peter Pena\.gradle\caches\transforms-3\1127f69e69b22545ca312359b65618e7\transformed\swiperefreshlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Peter Pena\.gradle\caches\transforms-3\1127f69e69b22545ca312359b65618e7\transformed\swiperefreshlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Peter Pena\.gradle\caches\transforms-3\398703382a1e8b659cf490e6c447382b\transformed\asynclayoutinflater-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Peter Pena\.gradle\caches\transforms-3\398703382a1e8b659cf490e6c447382b\transformed\asynclayoutinflater-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.navigation:navigation-common:1.0.0] C:\Users\Peter Pena\.gradle\caches\transforms-3\37f28380f2a0a2926646cd1f8b5e52d6\transformed\navigation-common-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.navigation:navigation-common:1.0.0] C:\Users\Peter Pena\.gradle\caches\transforms-3\37f28380f2a0a2926646cd1f8b5e52d6\transformed\navigation-common-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Peter Pena\.gradle\caches\transforms-3\0b22a6b07b3e498281e2fdb9d93c9c6b\transformed\support-compat-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Peter Pena\.gradle\caches\transforms-3\0b22a6b07b3e498281e2fdb9d93c9c6b\transformed\support-compat-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Peter Pena\.gradle\caches\transforms-3\481601e68be228fa2a45e74a81c7e04e\transformed\versionedparcelable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Peter Pena\.gradle\caches\transforms-3\481601e68be228fa2a45e74a81c7e04e\transformed\versionedparcelable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Peter Pena\.gradle\caches\transforms-3\c707fe02fa1106d9f0139fe5215803d7\transformed\cursoradapter-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Peter Pena\.gradle\caches\transforms-3\c707fe02fa1106d9f0139fe5215803d7\transformed\cursoradapter-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Peter Pena\.gradle\caches\transforms-3\703109fae2f389c31de7af6aa00ae2fb\transformed\cardview-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Peter Pena\.gradle\caches\transforms-3\703109fae2f389c31de7af6aa00ae2fb\transformed\cardview-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Peter Pena\.gradle\caches\transforms-3\f123473990d486b3f20e8fe949c7b281\transformed\runtime-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Peter Pena\.gradle\caches\transforms-3\f123473990d486b3f20e8fe949c7b281\transformed\runtime-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Peter Pena\.gradle\caches\transforms-3\67ddafa61b8f47933cb658e483beb385\transformed\documentfile-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Peter Pena\.gradle\caches\transforms-3\67ddafa61b8f47933cb658e483beb385\transformed\documentfile-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Peter Pena\.gradle\caches\transforms-3\70db801f677f7f92eb41cc9d8c101114\transformed\localbroadcastmanager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Peter Pena\.gradle\caches\transforms-3\70db801f677f7f92eb41cc9d8c101114\transformed\localbroadcastmanager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\Peter Pena\.gradle\caches\transforms-3\d2faecab65285283c7b675bf5558ce45\transformed\print-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\Peter Pena\.gradle\caches\transforms-3\d2faecab65285283c7b675bf5558ce45\transformed\print-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Peter Pena\.gradle\caches\transforms-3\d2b956bf5399713c4d2044c4c083205a\transformed\viewmodel-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Peter Pena\.gradle\caches\transforms-3\d2b956bf5399713c4d2044c4c083205a\transformed\viewmodel-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Peter Pena\.gradle\caches\transforms-3\d68956c51c5efef0e8a1717341546fdc\transformed\interpolator-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Peter Pena\.gradle\caches\transforms-3\d68956c51c5efef0e8a1717341546fdc\transformed\interpolator-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Peter Pena\.gradle\caches\transforms-3\a53d9506ae4dacb055d43639ef5bb2b9\transformed\livedata-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Peter Pena\.gradle\caches\transforms-3\a53d9506ae4dacb055d43639ef5bb2b9\transformed\livedata-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Peter Pena\.gradle\caches\transforms-3\8685e06f4e5777f3b1c280be6231fd18\transformed\livedata-core-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Peter Pena\.gradle\caches\transforms-3\8685e06f4e5777f3b1c280be6231fd18\transformed\livedata-core-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Peter Pena\.gradle\caches\transforms-3\d7f073c16ca3baa38c501851e8255cb7\transformed\runtime-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Peter Pena\.gradle\caches\transforms-3\d7f073c16ca3baa38c501851e8255cb7\transformed\runtime-1.1.1\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\Peter Pena\AndroidStudioProjects\DirectoryTranscriberDT\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Peter Pena\AndroidStudioProjects\DirectoryTranscriberDT\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\Peter Pena\AndroidStudioProjects\DirectoryTranscriberDT\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Peter Pena\AndroidStudioProjects\DirectoryTranscriberDT\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Peter Pena\AndroidStudioProjects\DirectoryTranscriberDT\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Peter Pena\AndroidStudioProjects\DirectoryTranscriberDT\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Peter Pena\AndroidStudioProjects\DirectoryTranscriberDT\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Peter Pena\AndroidStudioProjects\DirectoryTranscriberDT\app\src\main\AndroidManifest.xml
