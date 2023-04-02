@@ -1,6 +1,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.DTDirectoryTranscriber" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="Theme.DirectoryTranscriberDT" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/purple_500</item>
         <item name="colorPrimaryDark">@color/purple_700</item>
@@ -8,12 +8,12 @@
         <!-- Customize your theme here. -->
     </style>
 
-    <style name="Theme.DTDirectoryTranscriber.NoActionBar">
+    <style name="Theme.DirectoryTranscriberDT.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
 
-    <style name="Theme.DTDirectoryTranscriber.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="Theme.DirectoryTranscriberDT.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
-    <style name="Theme.DTDirectoryTranscriber.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="Theme.DirectoryTranscriberDT.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>

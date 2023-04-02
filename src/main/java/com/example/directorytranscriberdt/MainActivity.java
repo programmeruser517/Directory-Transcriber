@@ -1,4 +1,4 @@
-package com.example.dtdirectorytranscriber;
+package com.example.directorytranscriberdt;
 
 import android.Manifest;
 import android.app.Activity;
