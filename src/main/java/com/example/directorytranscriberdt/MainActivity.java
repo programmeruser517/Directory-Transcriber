@@ -58,8 +58,12 @@ public class MainActivity extends Activity {
                     FileWriter writer = new FileWriter(outputFile);
 
                     for (File file : files) {
-                        String fileNameWithoutExt = file.getName().substring(0, file.getName().lastIndexOf('.'));
-                        writer.write(fileNameWithoutExt + "\n");
+                        String fileName = file.getName();
+                        int lastDotIndex = fileName.lastIndexOf('.');
+                        if (lastDotIndex > 0) {
+                            fileName = fileName.substring(0, lastDotIndex);
+                        }
+                        writer.write(fileName + "\n");
                     }
 
                     writer.close();
